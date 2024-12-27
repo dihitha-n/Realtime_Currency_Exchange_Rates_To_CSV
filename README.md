@@ -6,6 +6,11 @@ This project allows you to fetch real-time currency exchange rates from an API a
 - Saves the exchange rate data for all currencies against USD in a CSV file.
 - Easy-to-use solution for business intelligence reporting purposes.
 
+## Requirements
+- **Python** or **Java**
+- `requests` library for Python, or the appropriate HTTP library for Java.
+- **apilayer.net** API key.
+
 ## Script Overview
 - **Fetches Exchange Rates:** The script sends an HTTP GET request to the API endpoint using the requests library to retrieve real-time exchange rates.
 - **Parses the Response:** The JSON response is parsed to extract the exchange rates.
@@ -16,3 +21,7 @@ To fetch real-time currency exchange rates, you'll need an API key from apilayer
 <br>Replace the access_key parameter in the url variable with your personal API key:
 
 url = "http://apilayer.net/api/live?access_key=YOUR_API_KEY&source=USD&format=1"
+
+
+<br>
+** This update clearly indicates that both **Python** and **Java** implementations are available, and users can choose the one that fits their preference.
